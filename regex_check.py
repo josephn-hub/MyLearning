@@ -26,6 +26,8 @@ phone_number = '''
 pattern_check = re.compile(r'[89]00[- * .]\d\d\d\d[- * .]\d\d\d')
 word_pattern_check = re.compile(r'[^t]it')
 name_pattern_check = re.compile(r'M(R|r|s|rs).?\s[A-Z]\w*')
+regex = '^\w+\s+\w*'
+
 
 check_word = word_pattern_check.finditer(text_name)
 check_numbers = pattern_check.finditer(phone_number)
