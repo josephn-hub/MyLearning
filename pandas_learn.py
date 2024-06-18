@@ -7,7 +7,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 dt = pd.date_range('01-01-2023', '01-31-2023')
 idx = pd.DatetimeIndex(dt)
-# print(idx)
+print(idx)
 
 
 today_date = datetime.datetime.today()
